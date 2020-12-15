@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_rating"
+            android:icon="@android:drawable/ic_menu_report_image"
+            android:title="Личный кабинет" />
+        <item
+            android:id="@+id/nav_inform"
+            android:icon="@android:drawable/ic_menu_directions"
+            android:title="Полезная информация" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@android:drawable/ic_menu_my_calendar"
+            android:title="Календарь событий" />
+        <item
+            android:id="@+id/nav_univer"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="Университет" />
+        <item
+            android:id="@+id/nav_forum"
+            android:icon="@android:drawable/ic_menu_help"
+            android:title="Задать вопрос" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Контакты" />
+    </group>
+
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/nav_app"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="О приложении" />
+            <item
+                android:id="@+id/nav_close"
+                android:icon="@android:drawable/ic_delete"
+                android:title="Выход" />
+        </menu>
+    </item>
+
+</menu>

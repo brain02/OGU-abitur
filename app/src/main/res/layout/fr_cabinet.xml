@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cabinet.Cabinet">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FAFAFA"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/colorPrimary"
+            android:text="Направление подготовки"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="13sp"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteX="8dp" />
+
+        <Button
+            android:id="@+id/btnTest"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/colorPrimary"
+            android:text="Результаты вступительных испытаний"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="13sp"
+            tools:layout_editor_absoluteX="8dp" />
+
+        <Button
+            android:id="@+id/btnIndivid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/colorPrimary"
+            android:text="Индивидуальные достижения"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="13sp"
+            app:layout_constraintTop_toBottomOf="@+id/btnTest"
+            tools:layout_editor_absoluteX="8dp" />
+
+        <Button
+            android:id="@+id/alternativ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginRight="8dp"
+            android:background="@color/colorPrimary"
+            android:text="Мои альтернативы"
+            android:textColor="@color/common_google_signin_btn_text_dark_default"
+            android:textSize="13sp"
+            app:layout_constraintTop_toBottomOf="@+id/btnIndivid" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
